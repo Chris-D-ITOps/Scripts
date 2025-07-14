@@ -1,0 +1,1 @@
+Get-WsusComputer -All | Select-Object fulldomainname, osdescription, ipaddress | Export-Csv -NoTypeInformation -Path .\Desktop\wsus-clients.csv
